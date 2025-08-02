@@ -15,7 +15,6 @@ function update_rankings() {
         $stmt_insert->execute([$player['name'], $player['elo'], $index + 1, $today]);
     }
 
-    echo "✅ Đã cập nhật bảng xếp hạng cho ngày $today.";
 }
 
 if (php_sapi_name() === 'cli' || isset($_GET['run'])) {

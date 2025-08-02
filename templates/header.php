@@ -5,12 +5,9 @@
     <title>Hệ thống ELO</title>
 </head>
 <body>
-<nav>
-    <a href="index.php">Bảng xếp hạng</a> |
-    <a href="add_match.php">Thêm trận</a> |
-    <a href="matches.php">Lịch sử trận</a> |
-    <a href="players.php">Người chơi</a> |
-    <a href="add_player.php">Thêm người chơi</a> |
-    <a href="edit_w3vn.php">W3VN7</a>
+<nav style="margin: 20px auto; text-align: center">
+    <a href="index.php" style="color: white;">Bảng xếp hạng |</a> 
+    <a href="winrates_per_race_and_map.php" style="color: white;">Thống kê |</a> 
+    <a href="matches.php" style="color: white;">Danh sách trận đấu</a> 
+
 </nav>
-<hr>
